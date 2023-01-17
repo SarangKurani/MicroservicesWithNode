@@ -10,7 +10,6 @@ app.use((req, res, next) => {
     next();
 });
 
-
 app.get('/microservice1', (req, res) => {
     console.log("Client connected to microservice1")
     res.json("This is the first microservice.")
