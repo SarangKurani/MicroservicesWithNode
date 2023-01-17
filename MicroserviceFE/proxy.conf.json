@@ -1,0 +1,10 @@
+{
+    "/microservice1": {
+        "target": "http://localhost:3000/microservice1",
+        "secure": false
+    },
+    "/microservice2": {
+        "target": "http://localhost:3001/microservice2",
+        "secure": false
+    }
+}
